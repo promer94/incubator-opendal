@@ -17,6 +17,8 @@
  * under the License.
  */
 
+// TODO: https://github.com/napi-rs/napi-rs/issues/900#issuecomment-1271821940
+// switch to local import when this issue is fixed
 import { Operator } from 'npm:opendal'
 import 'https://deno.land/std@0.181.0/dotenv/load.ts'
 import { S3Client } from 'https://deno.land/x/s3_lite_client@0.5.0/mod.ts'
